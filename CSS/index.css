@@ -1,0 +1,95 @@
+
+/* NavBar style start*/
+
+.container-fluid {
+    background-color: #2E7D32;
+    color: white;
+   
+}
+
+/* Logo Styling */
+.navbar-brand {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* Agri in white for contrast */
+.navbar-brand .agri {
+  color: #ffffff;  
+}
+
+/* Market in yellow-orange for highlight */
+.navbar-brand .market {
+  color: #FFEB3B; 
+}
+
+/* Emoji spacing */
+.navbar-brand span {
+  margin-left: 2px;
+}
+
+/* Hover effect */
+.navbar-brand:hover .agri {
+  color: #C8E6C9;  
+  transition: 0.3s;
+}
+
+.navbar-brand:hover .market {
+  color: #FFC107;  
+  transition: 0.3s;
+}
+
+.nav-item {
+  margin: 0 10px; 
+}
+
+
+/* Nav link base style */
+.navbar-nav .nav-link {
+  color: #fff; 
+  padding: 5px 10px; 
+  border-radius: 6px; 
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+  background-color: #FFEB3B; 
+  color: #2E7D32; 
+  font-weight: 500;
+  box-shadow: 2px 2px 3px black;
+}
+
+
+/* NavBar style end*/
+
+/*Slider Image*/
+
+.carousel-item img{
+  height: 500px;
+}
+
+/* card image */
+
+.card img{
+  height: 190px;
+
+}
+
+.card:hover{
+  border: 2px inset #2E7D32;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.card a{
+  background-color: #2E7D32;
+}
+
+.card a:hover{
+  background-color: grey;
+}
